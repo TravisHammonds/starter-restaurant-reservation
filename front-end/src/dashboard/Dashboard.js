@@ -56,7 +56,7 @@ function Dashboard({ date }) {
     <main>
       <h1>Dashboard</h1>
       <div className="d-md-flex mb-3">
-        <h4 className="mb-0">Reservations for date</h4>
+        <h4 className="mb-0">Reservations for {currentDate}</h4>
       </div>
       <ErrorAlert error={reservationsError} />
       <div className = "row row-cols-1 row-cols-md-3">
